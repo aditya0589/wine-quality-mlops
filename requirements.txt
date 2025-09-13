@@ -1,8 +1,10 @@
-box
+python-box
 numpy
 pandas
 matplotlib
 seaborn
 scikit-learn
 scipy
+ensure
+pyyaml
 
