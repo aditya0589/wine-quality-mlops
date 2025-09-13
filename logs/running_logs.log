@@ -1,1 +1,20 @@
 [2025-09-12 22:25:26,748: INFO: main: welcome to the custom logging]
+[2025-09-13 21:50:57,849: INFO: data_ingestion: >>> stage Data Ingestion stage started >>>]
+[2025-09-13 21:50:57,851: INFO: common: created directory at: artifacts]
+[2025-09-13 21:50:57,852: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-13 21:50:59,306: ERROR: data_ingestion: File is not a zip file]
+Traceback (most recent call last):
+  File "C:\Aditya\Computer Science\Machine Learning\projects\wine-quality-mlops\src\project\pipeline\data_ingestion.py", line 24, in <module>
+    obj.main()
+  File "C:\Aditya\Computer Science\Machine Learning\projects\wine-quality-mlops\src\project\pipeline\data_ingestion.py", line 19, in main
+    raise e
+  File "C:\Aditya\Computer Science\Machine Learning\projects\wine-quality-mlops\src\project\pipeline\data_ingestion.py", line 17, in main
+    data_ingestion.extract_zip_file()
+  File "C:\Aditya\Computer Science\Machine Learning\projects\wine-quality-mlops\src\project\components\data_ingestion.py", line 39, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, "r") as zip_ref:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\zipfile.py", line 1312, in __init__
+    self._RealGetContents()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\zipfile.py", line 1379, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
