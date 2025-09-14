@@ -1,5 +1,5 @@
 import os
-from project.entity.config_entity import DataTransformationConfig
+from src.project.entity.config_entity import DataTransformationConfig
 from src.project.utils import logger
 from sklearn.model_selection import train_test_split
 import pandas as pd
