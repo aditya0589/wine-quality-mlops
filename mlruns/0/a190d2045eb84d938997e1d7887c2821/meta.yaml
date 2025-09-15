@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Aditya/Computer%20Science/Machine%20Learning/projects/wine-quality-mlops/mlruns/0/a190d2045eb84d938997e1d7887c2821/artifacts
+end_time: 1757951341408
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a190d2045eb84d938997e1d7887c2821
+run_name: rumbling-grouse-333
+run_uuid: a190d2045eb84d938997e1d7887c2821
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757951337467
+status: 3
+tags: []
+user_id: kanak
