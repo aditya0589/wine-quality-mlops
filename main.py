@@ -1,5 +1,6 @@
 import sys
 import os
+from src.project.pipeline.model_trainer import ModelTrainerPipeline
 from src.project.pipeline.data_transformation import DataTransformationTrainingPipeline
 from src.project.pipeline.data_ingestion import DataIngestionTrainingPipeline
 from src.project.pipeline.data_validation import DataValidationTrainingPipeline
@@ -41,8 +42,16 @@ except Exception as e:
     raise e
 
 
+STAGE_NAME = "Model trainer"
 
-
+try:
+    logger.info(f">>> Stage {STAGE_NAME} started")
+    obj = ModelTrainerPipeline()
+    obj.main()
+    logger.info(f">>> Stage {STAGE_NAME} completed >>>")
+except Exception as e:
+    logger.exception(e)
+    raise e
 
 
 
