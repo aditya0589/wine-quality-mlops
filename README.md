@@ -1,4 +1,4 @@
-# Wine Quality Prediction MLOps Project
+# Wine Quality Prediction MLOps Practice Project
 
 ## Tools Used
 1. Mlflow
