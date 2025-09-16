@@ -10,7 +10,9 @@ pyyaml
 dataclasses
 mlflow==2.2.2
 streamlit
-pyarrow
+pyarrow==16.1.0
+
+
 
 
 
