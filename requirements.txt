@@ -7,7 +7,5 @@ scikit-learn
 scipy
 ensure
 pyyaml
-dataclasses
 mlflow==2.2.2
-
 streamlit
