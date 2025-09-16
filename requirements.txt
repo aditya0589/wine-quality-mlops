@@ -8,4 +8,5 @@ scipy
 ensure
 pyyaml
 dataclasses
-mlflow
+mlflow=2.2.2
+streamlit

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Aditya/Computer%20Science/Machine%20Learning/projects/wine-quality-mlops/mlruns/0/6f638ac4bb304908be0a8fa64dbc495b/artifacts
+end_time: 1757988056207
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6f638ac4bb304908be0a8fa64dbc495b
+run_name: salty-panda-317
+run_uuid: 6f638ac4bb304908be0a8fa64dbc495b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757988048298
+status: 3
+tags: []
+user_id: kanak
